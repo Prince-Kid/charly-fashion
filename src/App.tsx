@@ -8,6 +8,10 @@ import ProductModal from './components/ProductModal';
 import Cart from './components/Cart';
 import ProductsPage from './components/ProductsPage';
 import Toast from './components/Toast';
+import Testimonials from './components/Testimonials';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 interface CartItem {
   id: number;
@@ -170,6 +174,10 @@ function App() {
             ref={productListingRef}
             onProductSelect={setSelectedProduct}
           />
+          <Gallery  />
+          <Testimonials />
+          <Contact />
+          <Footer />
           
         </>
       ) : (
