@@ -7,9 +7,11 @@ const Hero = () => {
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   
   const rwandanWeddingImages = [
-    "https://images.unsplash.com/photo-1595675024853-0f3ec9098ac4?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.unsplash.com/photo-1519741497674-611481863552?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    "https://danddclothing.com/cdn/shop/articles/Rwandan_Traditional_Wedding_Styles_1400x.jpg?v=1621600071",
+    "https://i.pinimg.com/736x/26/64/31/26643140d0d84f38e283367617b652ae.jpg",
+    "https://i.pinimg.com/1200x/19/67/0a/19670a1bd1113d6879b33b93d9e13b5b.jpg",
+    "https://i.pinimg.com/1200x/99/41/c3/9941c3d91605e8a3855e828d1205ed83.jpg",
+    "https://i.pinimg.com/1200x/d1/c4/b1/d1c4b13592c35aa47efda011573ccb26.jpg"
   ];
 
   const languages = [
@@ -240,13 +242,13 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
-              <button className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center group">
+              <a href='#services' className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center justify-center group">
                 {content.exploreServices}
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-              </button>
-              <button className="border-2 border-orange-300 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-orange-300 hover:text-gray-900 transition-all duration-300">
+              </a>
+              <a href='#gallery' className="border-2 border-orange-300 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-orange-300 hover:text-gray-900 transition-all duration-300">
                 {content.viewGallery}
-              </button>
+              </a>
             </div>
 
             {/* Enhanced Stats - Better Aligned */}

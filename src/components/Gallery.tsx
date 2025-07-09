@@ -22,7 +22,7 @@ const Gallery = () => {
     // Decorations
     {
       id: 1,
-      src: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/b7/9f/f4/b79ff4f4917221eb959ae6da9c97ec4d.jpg',
       title: 'Elegant Garden Wedding Setup',
       category: 'decorations',
       description: 'Beautiful outdoor wedding decoration with floral arrangements and ambient lighting',
@@ -33,7 +33,7 @@ const Gallery = () => {
     },
     {
       id: 2,
-      src: 'https://images.unsplash.com/photo-1606800052052-a08af7148866?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/736x/d1/c4/b1/d1c4b13592c35aa47efda011573ccb26.jpg',
       title: 'Grand Reception Hall',
       category: 'decorations',
       description: 'Luxurious indoor reception with crystal chandeliers and golden accents',
@@ -57,7 +57,7 @@ const Gallery = () => {
     // Imishanana
     {
       id: 4,
-      src: 'https://images.unsplash.com/photo-1595675024853-0f3ec9098ac4?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/bb/e2/62/bbe262601881626cb8b1e9cf55eec2b3.jpg',
       title: 'Traditional Rwandan Wedding Attire',
       category: 'imishanana',
       description: 'Authentic Imishanana with traditional patterns and colors',
@@ -68,7 +68,7 @@ const Gallery = () => {
     },
     {
       id: 5,
-      src: 'https://images.unsplash.com/photo-1583391733956-6c78276477e1?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/originals/a9/0e/86/a90e8650687e663aaf65f0b6c7dda6a9.jpg',
       title: 'Modern Imishanana Design',
       category: 'imishanana',
       description: 'Contemporary take on traditional Rwandan wedding wear',
@@ -81,7 +81,7 @@ const Gallery = () => {
     // Bridal Gowns
     {
       id: 6,
-      src: 'https://images.unsplash.com/photo-1594736797933-d0bd8feaef8c?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/48/1f/d7/481fd7730d316889f372bd3605359e3f.jpg',
       title: 'Princess Ball Gown',
       category: 'gowns',
       description: 'Stunning princess-style gown with cathedral train',
@@ -92,7 +92,7 @@ const Gallery = () => {
     },
     {
       id: 7,
-      src: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/49/c6/f5/49c6f53aafa5ed14aad4319e665d9d44.jpg',
       title: 'Vintage Lace Gown',
       category: 'gowns',
       description: 'Classic vintage-inspired gown with intricate lace details',
@@ -105,7 +105,7 @@ const Gallery = () => {
     // Formal Suits
     {
       id: 8,
-      src: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/9a/df/b1/9adfb1ab7c26454418476a89645de647.jpg',
       title: 'Classic Black Tuxedo',
       category: 'suits',
       description: 'Elegant black tuxedo with bow tie and cufflinks',
@@ -116,7 +116,7 @@ const Gallery = () => {
     },
     {
       id: 9,
-      src: 'https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/28/0b/6a/280b6a92b5b8070b63eca0047941f753.jpg',
       title: 'Navy Blue Suit',
       category: 'suits',
       description: 'Modern navy blue suit perfect for contemporary weddings',
@@ -129,7 +129,7 @@ const Gallery = () => {
     // Ceremonies
     {
       id: 10,
-      src: 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/da/22/7d/da227d5240b473c549ed8b6320df531c.jpg  ',
       title: 'Traditional Ceremony',
       category: 'ceremonies',
       description: 'Beautiful traditional Rwandan wedding ceremony',
@@ -140,7 +140,7 @@ const Gallery = () => {
     },
     {
       id: 11,
-      src: 'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/7a/08/5a/7a085ac395e47ed891c4d73b7283beea.jpg',
       title: 'Church Wedding',
       category: 'ceremonies',
       description: 'Elegant church wedding ceremony with floral decorations',
@@ -153,7 +153,7 @@ const Gallery = () => {
     // Additional images for better showcase
     {
       id: 12,
-      src: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=compress&cs=tinysrgb&w=800',
+      src: 'https://i.pinimg.com/1200x/93/f7/c1/93f7c186e95ced6989ba8748fd4b1341.jpg',
       title: 'Floral Archway',
       category: 'decorations',
       description: 'Stunning floral archway for outdoor ceremonies',
@@ -455,11 +455,11 @@ const Gallery = () => {
         </div>
 
         {/* Load More Button */}
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
             Load More Images
           </button>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
         <div className="mt-20 text-center">
@@ -471,12 +471,12 @@ const Gallery = () => {
               Let's work together to make your special day unforgettable. Contact us today for a consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all duration-300">
+              <a href='#contact' className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transition-all duration-300">
                 Book Consultation
-              </button>
-              <button className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-orange-50 transition-all duration-300">
+              </a>
+              <a href='#services' className="border-2 border-orange-500 text-orange-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-orange-50 transition-all duration-300">
                 View Our Services
-              </button>
+              </a>
             </div>
           </div>
         </div>

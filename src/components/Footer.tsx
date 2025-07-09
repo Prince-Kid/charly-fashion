@@ -94,7 +94,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <a href="tel:+250788123456" className="text-gray-300 hover:text-orange-400 transition-colors font-medium">
-                      +250 788 123 456
+                      +250 727 955 120
                     </a>
                     <p className="text-sm text-gray-500">Available 24/7</p>
                   </div>
@@ -106,7 +106,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <a href="mailto:info@charlyfashion.rw" className="text-gray-300 hover:text-red-400 transition-colors font-medium">
-                      info@charlyfashion.rw
+                      ndayishimiyecharlotte64@gmail.com
                     </a>
                     <p className="text-sm text-gray-500">Quick response</p>
                   </div>

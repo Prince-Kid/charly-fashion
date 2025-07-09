@@ -125,7 +125,7 @@ function App() {
       <Header />
       
       {/* Navigation Pills */}
-      <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40 bg-white/95 backdrop-blur-sm rounded-full p-2 shadow-lg">
+      {/* <div className="fixed top-20 left-1/2 transform -translate-x-1/2 z-40 bg-white/95 backdrop-blur-sm rounded-full p-2 shadow-lg">
         <div className="flex space-x-2">
           <button
             onClick={() => setCurrentPage('home')}
@@ -148,7 +148,7 @@ function App() {
             All Products
           </button>
         </div>
-      </div>
+      </div> */}
 
       {/* Floating Cart Button */}
       <button
@@ -170,10 +170,11 @@ function App() {
         <>
           <Hero />
           <Services />
-          <ProductListing
+          {/* <ProductListing
             ref={productListingRef}
             onProductSelect={setSelectedProduct}
-          />
+          /> */}
+          <ProductsPage onProductSelect={setSelectedProduct} />
           <Gallery  />
           <Testimonials />
           <Contact />

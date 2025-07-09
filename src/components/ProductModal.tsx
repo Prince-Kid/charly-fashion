@@ -46,9 +46,9 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose, onAddToCa
   // Sample additional images for the product
   const productImages = [
     product.image,
-    'https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/1702306/pexels-photo-1702306.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=800'
+    'https://i.pinimg.com/1200x/ce/55/d2/ce55d241a1abe55a25ff07ee371e591c.jpg',
+    'https://i.pinimg.com/1200x/61/e1/de/61e1dedaf3f608e640f2f20ca2a184fc.jpg',
+    'https://i.pinimg.com/1200x/71/7d/47/717d47a14d466e46f530f57ec9a6c7b6.jpg'
   ];
 
   const sizes = ['XS', 'S', 'M', 'L', 'XL', 'XXL'];
