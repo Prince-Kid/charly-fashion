@@ -135,10 +135,10 @@ const Contact = () => {
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900 mb-1">Call Us</h4>
                     <a href="tel:+250788123456" className="text-orange-600 hover:text-orange-700 font-medium block">
-                      +250 788 123 456
+                      +250 727 955 120
                     </a>
                     <a href="tel:+250722987654" className="text-orange-600 hover:text-orange-700 font-medium block">
-                      +250 722 987 654
+                      +250 727 955 120
                     </a>
                     <span className="text-sm text-gray-500">Available 24/7</span>
                   </div>
@@ -150,11 +150,11 @@ const Contact = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-gray-900 mb-1">Email Us</h4>
-                    <a href="mailto:info@charlyfashion.rw" className="text-orange-600 hover:text-orange-700 font-medium block">
-                      info@charlyfashion.rw
+                    <a href="mailto:ndayishimiyecharlotte64@gmail.com" className="text-orange-600 hover:text-orange-700 font-medium block">
+                      ndayishimiyecharlotte64@gmail.com
                     </a>
-                    <a href="mailto:bookings@charlyfashion.rw" className="text-orange-600 hover:text-orange-700 font-medium block">
-                      bookings@charlyfashion.rw
+                    <a href="mailto:ndayishimiyecharlotte64@gmail.com" className="text-orange-600 hover:text-orange-700 font-medium block">
+                      ndayishimiyecharlotte64@gmail.com
                     </a>
                     <span className="text-sm text-gray-500">Response within 2 hours</span>
                   </div>
@@ -202,7 +202,7 @@ const Contact = () => {
               <h4 className="font-bold text-gray-900 mb-4">Quick Actions</h4>
               <div className="space-y-3">
                 <a
-                  href="https://wa.me/250788123456"
+                  href="https://wa.me/250727955120"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full bg-green-500 hover:bg-green-600 text-white py-3 px-4 rounded-xl font-semibold transition-colors duration-300"
@@ -211,7 +211,7 @@ const Contact = () => {
                   WhatsApp Chat
                 </a>
                 <a
-                  href="tel:+250788123456"
+                  href="tel:+250 727 955 120"
                   className="flex items-center justify-center w-full bg-blue-500 hover:bg-blue-600 text-white py-3 px-4 rounded-xl font-semibold transition-colors duration-300"
                 >
                   <Phone className="mr-2" size={18} />
@@ -498,10 +498,10 @@ const Contact = () => {
                     className="flex items-center justify-center w-full bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300 hover:shadow-lg"
                   >
                     <Phone className="mr-2" size={20} />
-                    Call: +250 788 123 456
+                    Call: +250 727 955 120
                   </a>
                   <a
-                    href="https://wa.me/250788123456"
+                    href="https://wa.me/0727955120"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center w-full bg-green-500 hover:bg-green-600 text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300"
@@ -510,7 +510,7 @@ const Contact = () => {
                     WhatsApp Chat
                   </a>
                   <a
-                    href="mailto:info@charlyfashion.rw"
+                    href="mailto:ndayishimiyecharlotte64@gmail.com"
                     className="flex items-center justify-center w-full border-2 border-orange-500 text-orange-600 hover:bg-orange-500 hover:text-white py-3 px-6 rounded-xl font-semibold transition-all duration-300"
                   >
                     <Mail className="mr-2" size={20} />

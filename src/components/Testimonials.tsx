@@ -10,7 +10,7 @@ const Testimonials = () => {
       id: 1,
       name: 'Sarah & Jean-Claude',
       wedding: 'Garden Wedding, Kigali',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/d0/0c/3b/d00c3b35aaaaa66d3f46a596eddd3a4f.jpg',
       rating: 5,
       text: 'Charly Fashion made our dream wedding come true! From the stunning decorations to the perfect Imishanana, everything was absolutely magical. The team was professional, attentive, and truly understood our vision. We couldn\'t have asked for a more perfect day!',
       service: 'Full Wedding Package',
@@ -22,7 +22,7 @@ const Testimonials = () => {
       id: 2,
       name: 'Marie & David',
       wedding: 'Traditional Ceremony, Musanze',
-      image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/40/9c/44/409c44156a27a94eaf46d07100409d2f.jpg',
       rating: 5,
       text: 'The Imishanana collection is exceptional! They helped us honor our cultural traditions while adding modern elegance. Our families were so impressed with the attention to detail and quality. The rental process was smooth and professional.',
       service: 'Imishanana Collection',
@@ -34,7 +34,7 @@ const Testimonials = () => {
       id: 3,
       name: 'Grace & Patrick',
       wedding: 'Beach Wedding, Lake Kivu',
-      image: 'https://images.pexels.com/photos/1024992/pexels-photo-1024992.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/10/00/80/10008027dd8283766f7c80a0b618be9f.jpg',
       rating: 5,
       text: 'Outstanding service from start to finish! The bridal gown was stunning and the decorations transformed our venue into paradise. The team\'s creativity and professionalism made our special day unforgettable.',
       service: 'Bridal Gown & Decorations',
@@ -46,7 +46,7 @@ const Testimonials = () => {
       id: 4,
       name: 'Immaculée & Robert',
       wedding: 'Church Wedding, Butare',
-      image: 'https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/a6/ac/15/a6ac1507478eddd83ac29b1310a606f1.jpg',
       rating: 5,
       text: 'Professional, reliable, and creative! The team at Charly Fashion exceeded all our expectations. The suit was perfectly tailored and the overall coordination was flawless. Highly recommend for any formal event!',
       service: 'Groom Package',
@@ -58,7 +58,7 @@ const Testimonials = () => {
       id: 5,
       name: 'Aline & Eric',
       wedding: 'Modern Ceremony, Nyanza',
-      image: 'https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/12/56/58/125658d0dd39111dc25bf45ea4137179.jpg',
       rating: 5,
       text: 'Amazing experience with Charly Fashion! They provided beautiful decorations for our engagement party and the quality was top-notch. The rental prices are very reasonable and the service is exceptional.',
       service: 'Event Decorations',
@@ -70,7 +70,7 @@ const Testimonials = () => {
       id: 6,
       name: 'Claudine & Emmanuel',
       wedding: 'Traditional & Modern Fusion, Kigali',
-      image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&dpr=2',
+      image: 'https://i.pinimg.com/736x/bd/e5/93/bde593ae194eb33a76ce3cd244dd3f0d.jpg',
       rating: 5,
       text: 'Perfect blend of traditional and modern! Charly Fashion helped us create a unique celebration that honored our heritage while embracing contemporary style. The attention to detail was remarkable.',
       service: 'Custom Package',
@@ -359,12 +359,12 @@ const Testimonials = () => {
                 Let's make your wedding dreams come true!
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-white text-orange-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 hover:scale-105">
+                <a href='#contact' className="bg-white text-orange-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-50 transition-all duration-300 hover:scale-105">
                   Get Your Free Consultation
-                </button>
-                <button className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition-all duration-300">
+                </a>
+                <a href='#services' className="border-2 border-white text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 transition-all duration-300">
                   View Our Portfolio
-                </button>
+                </a>
               </div>
             </div>
           </div>

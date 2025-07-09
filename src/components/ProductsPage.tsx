@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Filter, Search, Heart, Eye, ShoppingBag, Star, Grid, List } from 'lucide-react';
+import { Filter, Search, Heart, Eye, ShoppingBag, Star, Grid, List, TrendingUpIcon ,ArrowRight, Sparkles } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -42,7 +42,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Royal Elegance Gown',
       category: 'gowns',
       price: 'RWF 150,000',
-      image: 'https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/8b/f0/d4/8bf0d4bf7635745326c573afb2c48243.jpg',
       rating: 5,
       reviews: 23,
       features: ['Lace Details', 'Train Included', 'Custom Fit'],
@@ -56,7 +56,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Classic Black Tuxedo',
       category: 'suits',
       price: 'RWF 80,000',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/17/b5/11/17b5112265d5d30916a18c8d690e1f16.jpg',
       rating: 5,
       reviews: 18,
       features: ['Premium Fabric', 'Bow Tie Included', 'Tailored Fit'],
@@ -70,7 +70,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Traditional Imishanana Set',
       category: 'imishanana',
       price: 'RWF 120,000',
-      image: 'https://images.pexels.com/photos/8148580/pexels-photo-8148580.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/ad/fd/fc/adfdfc276568aa07538bee70ac03850f.jpg',
       rating: 5,
       reviews: 31,
       features: ['Authentic Design', 'Handcrafted', 'Cultural Heritage'],
@@ -84,7 +84,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Princess Ball Gown',
       category: 'gowns',
       price: 'RWF 200,000',
-      image: 'https://images.pexels.com/photos/1702306/pexels-photo-1702306.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.pinimg.com/1200x/ae/0d/8b/ae0d8bf12648d3593f730a0f19007170.jpg',
       rating: 5,
       reviews: 27,
       features: ['Beaded Details', 'Cathedral Train', 'Premium Satin'],
@@ -98,13 +98,13 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Modern Slim Suit',
       category: 'suits',
       price: 'RWF 70,000',
-      image: 'https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/ce/29/b2/ce29b2ba70bc4388dc250a700e4e44e3.jpg',
       rating: 4,
       reviews: 15,
       features: ['Contemporary Cut', 'Versatile Style', 'Complete Set'],
       description: 'Modern slim-fit suit perfect for various occasions.',
-      inStock: false,
-      isNew: false,
+      inStock: true,
+      isNew: true,
       isFeatured: false
     },
     {
@@ -112,7 +112,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Elegant Imishanana Deluxe',
       category: 'imishanana',
       price: 'RWF 140,000',
-      image: 'https://images.pexels.com/photos/8867482/pexels-photo-8867482.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/ff/4d/ec/ff4dec1998e38e186ce06c56da4db33e.jpg',
       rating: 5,
       reviews: 22,
       features: ['Complete Ensemble', 'Traditional Colors', 'Modern Styling'],
@@ -126,7 +126,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Wedding Venue Decoration Package',
       category: 'decorations',
       price: 'RWF 300,000',
-      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/06/ab/d0/06abd0046fa49ee64fd3426d17278a7b.jpg',
       rating: 5,
       reviews: 12,
       features: ['Full Venue Setup', 'Floral Arrangements', 'Lighting Design'],
@@ -140,7 +140,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
       name: 'Vintage Lace Gown',
       category: 'gowns',
       price: 'RWF 180,000',
-      image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://i.pinimg.com/1200x/48/1f/d7/481fd7730d316889f372bd3605359e3f.jpg',
       rating: 4,
       reviews: 19,
       features: ['Vintage Style', 'Delicate Lace', 'Classic Cut'],
@@ -182,7 +182,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
     });
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-orange-50">
+    <div id='products' className="min-h-screen bg-gradient-to-br from-gray-50 to-orange-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
         <div className="text-center mb-12">
@@ -368,7 +368,8 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
                       onClick={() => onProductSelect(product)}
                       className="bg-gray-100 text-gray-700 px-4 py-2 rounded-full font-semibold hover:bg-gray-200 transition-colors"
                     >
-                      View Details
+                   <span className="relative z-10">View Details</span>
+       
                     </button>
                   </div>
                 </div>
@@ -387,13 +388,13 @@ const ProductsPage: React.FC<ProductsPageProps> = ({ onAddToCart, onProductSelec
         )}
 
         {/* Load More Button */}
-        {filteredProducts.length > 0 && (
+        {/* {filteredProducts.length > 0 && (
           <div className="text-center mt-12">
             <button className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-xl transition-all duration-300">
               Load More Products
             </button>
           </div>
-        )}
+        )} */}
       </div>
 
       {/* Product Modal */}

@@ -19,7 +19,7 @@ const Header = () => {
       nav: [
         { name: 'Home', href: '#home' },
         { name: 'Services', href: '#services' },
-        { name: 'Rentals', href: '#rentals' },
+        { name: 'Styles', href: '#products' },
         { name: 'Gallery', href: '#gallery' },
         { name: 'Contact', href: '#contact' }
       ],
@@ -30,7 +30,7 @@ const Header = () => {
       nav: [
         { name: 'Ahabanza', href: '#home' },
         { name: 'Serivisi', href: '#services' },
-        { name: 'Ubukode', href: '#rentals' },
+        { name: 'Ubukode', href: '#products' },
         { name: 'Amafoto', href: '#gallery' },
         { name: 'Dutubabarire', href: '#contact' }
       ],
@@ -41,7 +41,7 @@ const Header = () => {
       nav: [
         { name: 'Accueil', href: '#home' },
         { name: 'Services', href: '#services' },
-        { name: 'Locations', href: '#rentals' },
+        { name: 'Locations', href: '#products' },
         { name: 'Galerie', href: '#gallery' },
         { name: 'Contact', href: '#contact' }
       ],
@@ -52,7 +52,7 @@ const Header = () => {
       nav: [
         { name: 'Nyumbani', href: '#home' },
         { name: 'Huduma', href: '#services' },
-        { name: 'Ukodishaji', href: '#rentals' },
+        { name: 'Ukodishaji', href: '#products' },
         { name: 'Picha', href: '#gallery' },
         { name: 'Mawasiliano', href: '#contact' }
       ],
@@ -160,10 +160,13 @@ const Header = () => {
               )}
             </div>
             
-            <button className="relative bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-3 rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300 font-semibold overflow-hidden group">
-              <span className="relative z-10">{translations[currentLanguage].bookNow}</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 via-red-500 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </button>
+            <a 
+  href="#contact"
+  className="relative bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-8 py-3 rounded-full hover:shadow-2xl hover:scale-105 transition-all duration-300 font-semibold overflow-hidden group inline-block"
+>
+  <span className="relative z-10">{translations[currentLanguage].bookNow}</span>
+  <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 via-red-500 to-orange-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+</a>
           </div>
 
           {/* Mobile menu button */}
@@ -210,9 +213,9 @@ const Header = () => {
                 </div>
               </div>
               
-              <button className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-6 py-3 rounded-full font-semibold mt-4">
+              <a href='#contact' className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-6 py-3 rounded-full font-semibold mt-4">
                 {translations[currentLanguage].bookNow}
-              </button>
+              </a>
             </div>
           </div>
         )}

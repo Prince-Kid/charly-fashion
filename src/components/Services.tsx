@@ -27,7 +27,7 @@ const Services = () => {
       features: ['Wedding Ceremonies', 'Bridal Shower Setups', 'Anniversary Celebrations', 'Cultural Events'],
       highlights: ['Custom Themes', 'Floral Arrangements', 'Lighting Design', 'Venue Styling'],
       color: 'from-orange-400 via-red-400 to-yellow-400',
-      bgImage: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=compress&cs=tinysrgb&w=800',
+      bgImage: 'https://i.pinimg.com/originals/83/ed/11/83ed1182b75c8c5582911b1502bf6278.jpg',
       category: 'decorations'
     },
     {
@@ -38,7 +38,7 @@ const Services = () => {
       features: ['Designer Wedding Gowns', 'Bridal Accessories', 'Shoes & Jewelry', 'Bridal Packages'],
       highlights: ['Premium Quality', 'Perfect Fitting', 'Style Consultation', 'Alteration Services'],
       color: 'from-pink-400 via-rose-400 to-red-400',
-      bgImage: 'https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?auto=compress&cs=tinysrgb&w=800',
+      bgImage: 'https://i.pinimg.com/1200x/ce/55/d2/ce55d241a1abe55a25ff07ee371e591c.jpg',
       category: 'gowns'
     },
     {
@@ -49,7 +49,7 @@ const Services = () => {
       features: ['Wedding Suits', 'Graduation Attire', 'Business Formal', 'Casual Formal Wear'],
       highlights: ['Perfect Tailoring', 'Latest Styles', 'Complete Accessories', 'Flexible Rental'],
       color: 'from-blue-400 via-indigo-400 to-purple-400',
-      bgImage: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=compress&cs=tinysrgb&w=800',
+      bgImage: 'https://i.pinimg.com/1200x/20/60/8b/20608be32edef4e7d8db642baa086295.jpg',
       category: 'suits'
     },
     {
@@ -60,7 +60,7 @@ const Services = () => {
       features: ['Traditional Wedding Sets', 'Cultural Ceremonies', 'Modern Imishanana', 'Custom Designs'],
       highlights: ['Authentic Designs', 'Cultural Heritage', 'Handcrafted Quality', 'Modern Styling'],
       color: 'from-green-400 via-emerald-400 to-teal-400',
-      bgImage: 'https://images.unsplash.com/photo-1583846112115-83c7b8a08b44?auto=compress&cs=tinysrgb&w=800',
+      bgImage: 'https://i.pinimg.com/1200x/2a/42/da/2a42da21ff2b692291243e7c23cb9836.jpg',
       category: 'imishanana'
     }
   ];
@@ -156,13 +156,13 @@ const Services = () => {
                   </div>
                   
                   {/* Action Button */}
-                  <button 
+                  <a href='#products'
                     onClick={() => handleExploreClick(service.category)}
                     className={`w-full py-4 px-6 rounded-2xl bg-gradient-to-r ${service.color} text-white font-semibold text-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group/btn`}
                   >
                     Explore Collection
                     <ArrowRight size={20} className="ml-2 group-hover/btn:translate-x-1 transition-transform duration-300" />
-                  </button>
+                  </a>
                 </div>
               </div>
             );
@@ -191,16 +191,16 @@ const Services = () => {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button 
+                <a href='#products'
                   onClick={() => handleExploreClick('all')}
                   className="bg-gradient-to-r from-orange-500 via-red-500 to-yellow-500 text-white px-10 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 flex items-center"
                 >
                   Browse All Collections
                   <ArrowRight size={20} className="ml-2" />
-                </button>
-                <button className="border-2 border-orange-500 text-orange-500 px-10 py-4 rounded-full font-semibold text-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
+                </a>
+                <a href='#contact' className="border-2 border-orange-500 text-orange-500 px-10 py-4 rounded-full font-semibold text-lg hover:bg-orange-500 hover:text-white transition-all duration-300">
                   Book Consultation
-                </button>
+                </a>
               </div>
               
               {/* Stats */}
